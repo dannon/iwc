@@ -3,7 +3,7 @@ import { defineNuxtConfig } from "nuxt/config";
 export default defineNuxtConfig({
     modules: ["@nuxt/ui", "@pinia/nuxt", "@nuxt/icon"],
 
-    css: [
+    css: ['~/assets/css/main.css',
         "@fontsource/atkinson-hyperlegible/400.css",
         "@fontsource/atkinson-hyperlegible/700.css",
         "@fontsource/atkinson-hyperlegible/400-italic.css",
