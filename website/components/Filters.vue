@@ -65,16 +65,16 @@ const handleFilterClick = (filter: string) => {
     transition: all 0.2s ease;
     border-radius: 4px;
     white-space: nowrap;
-    /* @apply text-gold border-b-2 border-t-2 border-transparent; */
+    @apply text-gold border-b-2 border-t-2 border-transparent;
 }
 
 .filter-item:hover {
     background-color: rgba(0, 0, 0, 0.05);
-    /* @apply text-white bg-gold; */
+    @apply text-white bg-gold;
 }
 
 .filter-item.active {
-    /* @apply text-white border-gold; */
+    @apply text-white border-gold;
     background-color: transparent;
 }
 
