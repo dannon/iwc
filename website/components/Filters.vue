@@ -60,6 +60,8 @@ const handleFilterClick = (filter: string) => {
 </template>
 
 <style scoped>
+@reference "~/assets/css/main.css";
+
 .filter-item {
     cursor: pointer;
     transition: all 0.2s ease;
