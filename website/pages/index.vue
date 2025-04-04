@@ -170,7 +170,7 @@ function selectWorkflow(workflow: Workflow) {
                 <Filters />
             </div>
         </template>
-        <template #content>
+        <template #default>
             <div v-if="selectedCategory" class="w-full my-4 p-4 bg-white rounded-lg shadow-md">
                 <h2 class="text-xl font-semibold mb-4">{{ selectedCategory }}</h2>
                 <div class="prose !max-w-none">

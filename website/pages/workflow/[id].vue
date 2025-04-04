@@ -242,7 +242,7 @@ onBeforeMount(async () => {
             </div>
         </template>
 
-        <template #content>
+        <template #default>
             <div v-if="workflow" class="mx-auto">
                 <div class="p-4 mb-6">
                     <UTabs :items="tabs" @change="onTabChange" v-model="currentTabIndex" class="w-full">

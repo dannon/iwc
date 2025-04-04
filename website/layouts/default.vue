@@ -25,7 +25,7 @@ const hasRightSidebar = computed(() => {
             </div>
             <!-- content -->
             <div class="flex-1 p-4 overflow-y-auto">
-                <slot name="content"></slot>
+                <slot></slot>
             </div>
             <!-- Right sidebar -->
             <div v-if="hasRightSidebar" class="w-1/4 p-4 overflow-y-auto">
