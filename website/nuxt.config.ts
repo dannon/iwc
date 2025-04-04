@@ -1,4 +1,5 @@
 import { defineNuxtConfig } from "nuxt/config";
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
     modules: ["@nuxt/ui", "@pinia/nuxt", "@nuxt/icon"],
@@ -31,6 +32,8 @@ export default defineNuxtConfig({
             appUrl: process.env.APP_URL || "https://iwc.galaxyproject.org",
         },
     },
-
+    vite: {
+        plugins: [tailwindcss()],
+    },
     compatibilityDate: "2025-03-03",
 });
