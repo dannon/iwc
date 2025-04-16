@@ -11,16 +11,16 @@ export default defineAppConfig({
             variants: {
                 variant: {
                     solid: {
-                        root: 'bg-ebony-clay-900 dark:bg-ebony-clay-900 text-white dark:text-white'
+                        root: 'bg-white dark:bg-white text-neutral-900 dark:text-neutral-900'
                     },
                     outline: {
-                        root: 'bg-ebony-clay-900 dark:bg-ebony-clay-900 text-white dark:text-white ring-1 ring-ebony-clay-800 dark:ring-ebony-clay-800 divide-y divide-ebony-clay-800 dark:divide-ebony-clay-800'
+                        root: 'bg-white dark:bg-white text-neutral-900 dark:text-neutral-900 ring-1 ring-neutral-200 dark:ring-neutral-200 divide-y divide-neutral-200 dark:divide-neutral-200'
                     },
                     soft: {
-                        root: 'bg-ebony-clay-900 dark:bg-ebony-clay-900 text-white dark:text-white divide-y divide-ebony-clay-800 dark:divide-ebony-clay-800'
+                        root: 'bg-white dark:bg-white text-neutral-900 dark:text-neutral-900 divide-y divide-neutral-200 dark:divide-neutral-200'
                     },
                     subtle: {
-                        root: 'bg-ebony-clay-900 dark:bg-ebony-clay-900 text-white dark:text-white ring-1 ring-ebony-clay-800 dark:ring-ebony-clay-800 divide-y divide-ebony-clay-800 dark:divide-ebony-clay-800'
+                        root: 'bg-white dark:bg-white text-neutral-900 dark:text-neutral-900 ring-1 ring-neutral-200 dark:ring-neutral-200 divide-y divide-neutral-200 dark:divide-neutral-200'
                     }
                 }
             },
