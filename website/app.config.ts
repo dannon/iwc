@@ -5,7 +5,9 @@ export default defineAppConfig({
         keywords: ["Galaxy Project", "Workflow", "Intergalactic Workflow Comission", "Bioinformatics"],
     },
     ui: {
-        primary: "hokey-pokey",
-        gray: "ebony-clay",
+        colors: {
+            primary: "hokey-pokey",
+            neutral: "ebony-clay",
+        },
     },
 });
