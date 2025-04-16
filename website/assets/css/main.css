@@ -1,7 +1,13 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
 
+/* Remove these CSS overrides as they're causing conflicts */
+
 @theme {
+    /* Semantic Color Aliases for Nuxt UI v3 */
+    --color-primary: var(--color-hokey-pokey);
+    --color-neutral: var(--color-ebony-clay);
+
     --font-sans:
         Atkinson Hyperlegible, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
         "Segoe UI Symbol", "Noto Color Emoji";
